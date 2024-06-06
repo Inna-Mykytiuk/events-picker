@@ -1,0 +1,178 @@
+.header {
+  position: relative;
+  padding: 6px 0 28px;
+  background-color: rgba(255, 255, 255, 0.67);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12),
+    inset 0px 12px 24px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 138px;
+  height: 138px;
+  margin-right: 86px;
+}
+
+/* NavBlock */
+
+.nav-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.nav-title {
+  font-family: var(--font-secondary), sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+}
+
+.nav-info {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 19px;
+}
+
+.nav-number {
+  font-weight: 700;
+}
+
+.nav-date {
+  padding: 6px 12px;
+  color: var(--accent-color);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  border: 1px solid var(--accent-color);
+}
+
+.date-block {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.date-block-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.date-block-content {
+  display: flex;
+  gap: 24px;
+}
+
+.date-block-wrapper {
+  position: relative;
+}
+
+.date-control {
+  width: 162px;
+  height: 28px;
+  padding-left: 7px;
+  font-size: 13px;
+  color: var(--input-color);
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+
+  &::placeholder {
+    color: var(--input-color);
+  }
+
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+}
+
+.icon {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: var(--icon-bg-color);
+  pointer-events: none;
+}
+
+.icon-close {
+  right: 27px;
+  top: 1px;
+  border-left: 1px solid var(--input-border-color);
+  border-right: 1px solid var(--input-border-color);
+}
+
+.icon-calendar {
+  right: 1px;
+  top: 1px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.btn-view .icon-grid {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  fill: red;
+  cursor: pointer;
+
+}
+
+.icon-grid {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-top: -1px;
+}
+
+.icon-grid.is-active svg path {
+  fill: #3D8EDA;
+}
+
+
+.icon-list {
+  display: inline-block;
+  width: 24px;
+  height: 22px;
+}
+
+.icon-list svg path {
+  fill: #C8C8C8;
+}
+
+
+.icon-list.is-active svg path {
+  fill: #3d8eda;
+}
+
+
+.icon-fill {
+  fill: #C8C8C8;
+}
+
+.icon-list.is-active .icon-fill {
+  fill: #3d8eda;
+}
+
+.icon-like,
+.icon-comment {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+}
+
+.view-controls-content {
+  padding: 18px 0 23px;
+}
+
+.view-controls {
+  display: flex;
+  justify-content: end;
+  gap: 21px;
+}

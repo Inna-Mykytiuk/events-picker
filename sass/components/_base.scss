@@ -1,0 +1,47 @@
+:root {
+  --text-color: #000;
+  --accent-color: #3d8eda;
+  --secondary-color: #929292;
+  --input-color: #636264;
+  --input-border-color: #dedede;
+  --icon-bg-color: #ebebeb;
+  --bg-color: #fafafa;
+  --bg-item-color: #fff;
+  --font-base: "Roboto";
+  --font-secondary: "Montserrat";
+  --font-size-base: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-base), sans-serif;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

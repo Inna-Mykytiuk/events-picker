@@ -1,0 +1,29 @@
+
+.wrapper {
+  position: relative;
+}
+
+.main {
+  padding-bottom: 218px;
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+
+  &.vector-top {
+    left: 0;
+    top: 0;
+  }
+
+  &.vector-bottom {
+    right: 0;
+    bottom: 41px;
+  }
+}
+
+.container {
+  max-width: 876px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
