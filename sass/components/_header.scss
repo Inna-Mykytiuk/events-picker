@@ -96,21 +96,19 @@
 .icon {
   position: absolute;
   width: 26px;
-  height: 26px;
+  height: 28px;
   background-color: var(--icon-bg-color);
   pointer-events: none;
 }
 
 .icon-close {
   right: 27px;
-  top: 1px;
   border-left: 1px solid var(--input-border-color);
   border-right: 1px solid var(--input-border-color);
 }
 
 .icon-calendar {
   right: 1px;
-  top: 1px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }

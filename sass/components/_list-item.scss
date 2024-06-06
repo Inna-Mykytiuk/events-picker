@@ -5,8 +5,10 @@
 
   &.is-grid {
     grid-template-columns: repeat(auto-fill, minmax(203px, 1fr));
+    margin-bottom: 16px;
   }
 }
+
 
 .list-item {
   display: flex;
