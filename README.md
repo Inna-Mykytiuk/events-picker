@@ -17,4 +17,5 @@ and dynamic updates. Features
 
 - Photo List: A grid or list layout that displays photos with the following features: Icons and Counters: Each photo shows a like icon with a comment icon.
 
-![preview](https://github.com/Inna-Mykytiuk/)
+![preview](https://github.com/Inna-Mykytiuk/events-picker/blob/main/assets/presentationImg1.jpg)
+![preview](https://github.com/Inna-Mykytiuk/events-picker/blob/main/assets/presentationImg2.jpg)
