@@ -6,7 +6,9 @@ engaging user experience.
 
 # Technologies Used
 
-HTML: Structured the content of the page and defined the layout. SCSS: Applied styling and ensured responsiveness across different devices. JavaScript: Enabled interactivity, sorting functionality,
+- HTML: Structured the content of the page and defined the layout.
+- SCSS: Applied styling and ensured responsiveness across different devices.
+- JavaScript: Enabled interactivity, sorting functionality,
 and dynamic updates. Features
 
 ## Header
