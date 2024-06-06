@@ -249,18 +249,11 @@ a {
   border-bottom-right-radius: 4px;
 }
 
-.btn-view .icon-grid {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  fill: red;
-  cursor: pointer;
-}
-
 .icon-grid {
   display: inline-block;
   width: 22px;
   height: 22px;
+  cursor: pointer;
   margin-top: -1px;
 }
 
@@ -319,6 +312,9 @@ a {
 .list.is-grid {
   grid-template-columns: repeat(auto-fill, minmax(203px, 1fr));
   margin-bottom: 16px;
+}
+.list.is-grid .list-item:last-child {
+  display: none;
 }
 
 .list-item {
